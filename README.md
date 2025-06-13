@@ -38,7 +38,9 @@ $command = new GetFcast();
 $result = $command->bayesianForecast($historical, $current);
 
 print_r($result);
+```
 
+```
 Array
 (
     [bayesian_expected_total] => 15387.67
