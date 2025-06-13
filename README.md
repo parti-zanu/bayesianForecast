@@ -60,17 +60,17 @@ Array
 
 ## Parameters
 
-- $historical: An array of previous full-month totals (float values, at least 6 recommended for stability).
-- $currentPartial: The amount recorded so far in the current month.
+- **$historical**: An array of previous full-month totals (float values, at least 6 recommended for stability).
+- **$currentPartial**: The amount recorded so far in the current month.
 
 ## Output
 
-- bayesian_expected_total: Forecasted total for the end of the month (posterior mean).
-- bayesian_credible_interval: Central credible interval for the forecast (default: 90%).
-- credible_interval_width: The width of the credible interval (lower to upper).
-- expected_position_in_interval: Where the mean falls inside the interval (0=lower, 1=upper).
-- posterior_stddev: Standard deviation of the posterior distribution (forecast uncertainty).
-- warnings: Array of warnings or positive diagnostics about precision, outliers, or uncertainty.
+- **bayesian_expected_total**: Forecasted total for the end of the month (posterior mean).
+- **bayesian_credible_interval**: Central credible interval for the forecast (default: 90%).
+- **credible_interval_width**: The width of the credible interval (lower to upper).
+- **expected_position_in_interval**: Where the mean falls inside the interval (0=lower, 1=upper).
+- **posterior_stddev**: Standard deviation of the posterior distribution (forecast uncertainty).
+- **warnings**: Array of warnings or positive diagnostics about precision, outliers, or uncertainty.
 
 ## Interpretation
 
