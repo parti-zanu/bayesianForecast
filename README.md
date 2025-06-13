@@ -55,7 +55,7 @@ Array
             [0] => Forecast is precise: credible interval is narrow and can be used with high confidence for planning.
         )
 )
-```php
+```
 
 
 ## Parameters
